@@ -84,7 +84,7 @@ NSString * const PLAYERDOMAIN = @"http://www.ooyala.com";
     // In this example, we are catching Before or After flight time errors.
     if (errorCode == OOAuthCodeBeforeFlightTime || errorCode == OOAuthCodeAfterFlightTime) {
         //Display a simple alert with a Coming Soon message.
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Message Box" message:@"Comming Soon" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Message Box" message:@"Coming Soon" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
         [alert show];
     }
 

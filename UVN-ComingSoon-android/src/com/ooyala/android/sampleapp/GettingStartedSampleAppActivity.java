@@ -93,7 +93,7 @@ public class GettingStartedSampleAppActivity extends Activity implements Observe
 	public void yourCodeHere(){
 		AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
 		alertDialogBuilder.setTitle("Sample feedback window");
-		alertDialogBuilder.setMessage("Comming soon");
+		alertDialogBuilder.setMessage("Coming soon");
 		alertDialogBuilder.setCancelable(false);
 		alertDialogBuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
 			@Override
