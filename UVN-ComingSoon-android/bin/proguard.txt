@@ -1,0 +1,6 @@
+# view res/layout/main.xml #generated:12
+-keep class com.ooyala.android.OoyalaPlayerLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.ooyala.android.sampleapp.GettingStartedSampleAppActivity { <init>(...); }
+
